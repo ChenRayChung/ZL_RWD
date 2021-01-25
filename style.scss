@@ -43,3 +43,31 @@ nav{
         
     
 }
+#banner{
+    .slick-prev{
+        left:50px;
+        z-index: 2;
+    }
+    .slick-next{
+        right: 50px;
+        z-index: 2;
+    }
+    .slick-dots{
+        bottom: 50px;
+        z-index: 2;
+
+    }
+@for $i from 1 through 3 {
+    .banner#{$i}{
+        background-image:url(./img/banner#{$i}.jpg) ;
+    
+    text-align: center;
+     padding: 300px 100px 100px;
+     object-fit: cover;
+     height: 100vh;
+     &:focus{
+         outline: none;
+     }
+    }
+}
+}

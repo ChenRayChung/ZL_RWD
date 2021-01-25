@@ -45,4 +45,58 @@ nav #link a:hover {
   font-family: 'Hachi Maru Pop', cursive;
   font-size: 40px !important;
 }
+
+#banner .slick-prev {
+  left: 50px;
+  z-index: 2;
+}
+
+#banner .slick-next {
+  right: 50px;
+  z-index: 2;
+}
+
+#banner .slick-dots {
+  bottom: 50px;
+  z-index: 2;
+}
+
+#banner .banner1 {
+  background-image: url(./img/banner1.jpg);
+  text-align: center;
+  padding: 300px 100px 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100vh;
+}
+
+#banner .banner1:focus {
+  outline: none;
+}
+
+#banner .banner2 {
+  background-image: url(./img/banner2.jpg);
+  text-align: center;
+  padding: 300px 100px 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100vh;
+}
+
+#banner .banner2:focus {
+  outline: none;
+}
+
+#banner .banner3 {
+  background-image: url(./img/banner3.jpg);
+  text-align: center;
+  padding: 300px 100px 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100vh;
+}
+
+#banner .banner3:focus {
+  outline: none;
+}
 /*# sourceMappingURL=style.css.map */
