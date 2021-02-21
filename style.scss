@@ -40,7 +40,7 @@ nav{
     // 滑入顯示子分頁元素
     &:hover .sub-link{
         // display: block;//第一種作法
-        transform: scale(1);
+        transform: scale(0.5);
     }
 
 }
