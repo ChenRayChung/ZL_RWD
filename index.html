@@ -7,6 +7,8 @@
   
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <!-- .跟此檔案相同資料夾內的其他檔案 -->
+    <!-- ..在此檔案上一層資料夾內的其他檔案 -->
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -14,8 +16,16 @@
    <nav>
        <div></div>
        <div id="link">
-           <a href="">自我介紹</a>
-           <a href="">作品</a>
+           <div a id="link-work" href="">自我介紹</a>
+           <a href="">作品
+               <div class="sub-link">
+                   <a href="">遊戲</a>
+                   <a href="">插畫</a>
+                   <a href="">網頁</a>
+                   
+               </div>
+            </div>   
+           </a>
            <a href=""class="logo">{RAY}</a>
            <a href="">文章</a>
            <a href="">聯絡方式</a>
